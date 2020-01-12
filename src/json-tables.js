@@ -38,7 +38,7 @@ export class Table {
     
 
     static fromString(dataString) {
-        const { rows, columns } = JSON.parse(atob(jsonString));
+        const { rows, columns } = JSON.parse(atob(dataString));
         return new Table(columns, rows);
     }
 }
