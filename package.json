@@ -1,0 +1,21 @@
+{
+  "name": "json-tables",
+  "version": "1.0.0",
+  "description": "Serverless data tables with JSON.",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raghav-misra/json-tables.git"
+  },
+  "author": "raghav-misra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raghav-misra/json-tables/issues"
+  },
+  "homepage": "https://github.com/raghav-misra/json-tables#readme",
+  "devDependencies": {
+    "typescript": "^3.7.4"
+  }
+}
