@@ -2,7 +2,7 @@ interface IRowStorage {
     [key: string]: any[];
 }
 
-export class Table<TColumn = string> {
+class Table<TColumn = string> {
     private $columns: TColumn[];
     private $rows: IRowStorage;
 
@@ -56,3 +56,5 @@ export class Table<TColumn = string> {
         return new Table(columns, rows);
     }
 }
+
+module.exports = Table;

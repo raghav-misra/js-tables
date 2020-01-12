@@ -1,21 +1,24 @@
 {
-  "name": "json-tables",
+  "name": "js-tables",
   "version": "1.0.0",
-  "description": "Serverless data tables with JSON.",
+  "description": "Serverless data tables with JavaScript Objects.",
+  "main": "./lib/js-tables.js",
+  "types": "./lib/js-tables.d.ts",
   "scripts": {
     "build": "tsc && python nomodule.py"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/raghav-misra/json-tables.git"
+    "url": "git+https://github.com/raghav-misra/js-tables.git"
   },
   "author": "raghav-misra",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/raghav-misra/json-tables/issues"
+    "url": "https://github.com/raghav-misra/js-tables/issues"
   },
-  "homepage": "https://github.com/raghav-misra/json-tables#readme",
+  "homepage": "https://github.com/raghav-misra/js-tables#readme",
   "devDependencies": {
-    "typescript": "^3.7.4"
+    "typescript": "^3.7.4",
+    "@types/node": "^13.1.6"
   }
 }

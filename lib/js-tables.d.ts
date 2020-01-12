@@ -1,7 +1,7 @@
 interface IRowStorage {
     [key: string]: any[];
 }
-export declare class Table<TColumn = string> {
+declare class Table<TColumn = string> {
     private $columns;
     private $rows;
     constructor(columns: TColumn[], rows: IRowStorage);
@@ -14,4 +14,3 @@ export declare class Table<TColumn = string> {
     encode(): string;
     static decode(dataString: string): Table<string>;
 }
-export {};
