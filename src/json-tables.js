@@ -29,16 +29,16 @@ export class Table {
         delete this.rows[row];
     }
 
-    /* JSON Interactions */
-    toJSON() {
-        return JSON.stringify({
+    /* Stringify/Parse Interactions */
+    toString() {
+        return btoa(JSON.stringify({
             rows: this.rows, columns: this.columns
-        });
+        }));
     }
     
 
-    static fromJSON(jsonString) {
-        const { rows, columns } = JSON.parse(jsonString);
+    static fromString(dataString) {
+        const { rows, columns } = JSON.parse(atob(jsonString));
         return new Table(columns, rows);
     }
 }
