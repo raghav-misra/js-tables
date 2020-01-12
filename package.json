@@ -10,7 +10,7 @@
     "url": "git+https://github.com/raghav-misra/json-tables.git"
   },
   "author": "raghav-misra",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/raghav-misra/json-tables/issues"
   },
