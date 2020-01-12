@@ -30,14 +30,14 @@ export class Table {
     }
 
     /* Stringify/Parse Interactions */
-    toString() {
+    encode() {
         return btoa(JSON.stringify({
             rows: this.rows, columns: this.columns
         }));
     }
     
 
-    static fromString(dataString) {
+    static decode(dataString) {
         const { rows, columns } = JSON.parse(atob(dataString));
         return new Table(columns, rows);
     }
