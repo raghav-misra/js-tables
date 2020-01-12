@@ -1,5 +1,3 @@
-import { Table } from '../src/json-tables.js';
-
 const userDb = new Table(
                    ["email",          "phone"       ], {
     "James Peach": ["james@peach.io", "888-888-9993"],
