@@ -4,3 +4,4 @@ const userDb = new Table(
     "Jane Smith":  ["jane@smith.com", "111-111-2244"]
 });
 
+alert(JSON.stringify(userDb));
