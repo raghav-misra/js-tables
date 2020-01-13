@@ -35,6 +35,7 @@ const users = Table.create(
 ```
 
 Now you can visualizes `users` to look like this:
+
 |               | email             | phone           |
 |---------------|-------------------|-----------------|
 | James Jeffrey | jj@james.io       | +1 123-456-7890 |
@@ -48,6 +49,7 @@ users.append(
 );
 ```
 Now your table will look like this:
+
 |               | email             | phone           |
 |---------------|-------------------|-----------------|
 | James Jeffrey | jj@james.io       | +1 123-456-7890 |
@@ -62,6 +64,7 @@ users.delete("Ramesh Mondo");
 ```
 
 New data table:
+
 |               | email             | phone           |
 |---------------|-------------------|-----------------|
 | James Jeffrey | jj@james.io       | +1 123-456-7890 |
@@ -85,6 +88,7 @@ users.update(
 ```
 
 Table looks like this:
+
 |               | email             | phone           |
 |---------------|-------------------|-----------------|
 | James Jeffrey | email@lordjoe.cc  | +1 123-456-7890 |
