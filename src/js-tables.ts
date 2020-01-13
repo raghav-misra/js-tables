@@ -36,13 +36,6 @@ class Table<TColumn = string> {
         delete this.$rows[row];
     }
 
-    /* Row Getter WIP */
-    get rows() {
-        let calculatedRows = [];
-
-        return calculatedRows;
-    }
-
     /* Stringify/Parse Interactions */
     encode() {
         return btoa(JSON.stringify({
